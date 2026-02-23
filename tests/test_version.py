@@ -1,6 +1,6 @@
 import packaging.version
 
-import template_python
+import revolver-tournamenter
 
 
 def test_version_is_valid() -> None:
