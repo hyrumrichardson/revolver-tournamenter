@@ -7,6 +7,7 @@ import random
 def generatePairings(players, max_rounds):
     #TODO: throw error if max_rounds > players - 1 (round robin if they are equal)
 
+    print(players)
     matches_played = {i: set() for i in players}
     pair_count = {i: 0 for i in players}
 

@@ -310,3 +310,7 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+# Testing files
+tournament.xlsx
+input.txt

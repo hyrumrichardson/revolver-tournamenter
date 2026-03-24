@@ -9,6 +9,9 @@
 
 ## Quickstart
 
+git clone https://github.com/hyrumrichardson/revolver-tournamenter
+cd your-repo
+
 [Install Hatch](https://hatch.pypa.io/latest/install/), rename the project, then install the project:
 
 ```sh

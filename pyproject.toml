@@ -26,7 +26,7 @@ Homepage = "https://github.com/hyrumrichardson/revolver-tournamenter"
 Repository = "https://github.com/hyrumrichardson/revolver-tournamenter"
 
 [project.scripts]
-revolver = "revolver_tournamenter.main:main"
+revolver = "revolver_tournamenter.__main__:main"
 
 [build-system]
 requires = ["setuptools>=65", "setuptools-scm"]
