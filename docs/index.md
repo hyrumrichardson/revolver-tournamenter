@@ -14,7 +14,7 @@ git clone https://github.com/hyrumrichardson/revolver-tournamenter
 cd revolver-tournamenter
 
 pip install -e .
-revolver-tournamenter --filename input.txt (--rounds 5)
+revolver --filename input.txt (--rounds 5)
 ```
 
 where input.txt looks like

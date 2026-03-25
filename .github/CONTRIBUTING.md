@@ -6,10 +6,10 @@
 
 - **Consider starting a discussion to see if there's interest in what you want to do.**
 - **Fork the repo and submit PRs from the fork.**
-- **Ensure PRs pass all CI checks.**
-- **Maintain test coverage at 100%.**
+<!-- - **Ensure PRs pass all CI checks.**
+- **Maintain test coverage at 100%.** -->
 
-## Git
+<!-- ## Git
 
 - _[Why use Git?](https://www.git-scm.com/about)_ Git enables creation of multiple versions of a code repository called branches, with the ability to track and undo changes in detail.
 - Install Git by [downloading](https://www.git-scm.com/downloads) from the website, or with a package manager like [Homebrew](https://brew.sh/).
@@ -123,4 +123,4 @@ Spell check is performed with [CSpell](https://cspell.org/). The CSpell command 
   - Push the tag. GitHub Actions will build and publish the Python package.
 - Consider [keeping a changelog](https://keepachangelog.com/en/1.0.0/). There are many tools and approaches for this. Most of them work like this:
   1. Accumulate "fragments" as the project is developed. These could be text files in a directory under version control, or could also be Git commit/PR/tag messages. Fragments should contain human-readable summaries of code changes.
-  2. Collect the fragments and combine them into a text file like CHANGELOG.md.
+  2. Collect the fragments and combine them into a text file like CHANGELOG.md. -->
