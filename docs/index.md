@@ -9,29 +9,24 @@
 
 ## Quickstart
 
-git clone https://github.com/hyrumrichardson/revolver-tournamenter
-cd your-repo
-
-[Install Hatch](https://hatch.pypa.io/latest/install/), rename the project, then install the project:
-
 ```sh
-# set your names
-repo_name="your-repo-name"
-your_name="Your Name"
-your_user="YourGitHubUsername"
+git clone https://github.com/hyrumrichardson/revolver-tournamenter
+cd revolver-tournamenter
 
-# update repo for new names
-git mv "src/template_python" "src/${repo_name//-/_}"
-git grep -l "br3ndonland" | xargs sed -i "s|br3ndonland|$your_user|g"
-git grep -l "Brendon Smith" | xargs sed -i "s|Brendon Smith|$your_name|g"
-git grep -l "template_python" | xargs sed -i "s|template_python|${repo_name//-/_}|g"
-git grep -l "template-python" | xargs sed -i "s|template-python|$repo_name|g"
-
-# run tests to verify
-hatch run coverage run
+pip install -e .
+revolver-tournamenter --filename input.txt (--rounds 5)
 ```
 
-## Documentation
+where input.txt looks like
 
-Documentation is built with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/).
+```sh
+Player A
+Player B
+Player C
+...
+```
+
+<!-- ## Documentation
+
+Documentation is built with [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/). -->
 
